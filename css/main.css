@@ -7,23 +7,32 @@ Seems like as good a time as any to start
 	}
 */
 * {
-	background-color: black;
-	color:red;
-	border:solid 1px purple;
+	box-sizing:border-box;
+	background-color: white;
+	color:pink;
+	border:solid 1px pink;
 }
 .title {
 	font-size: 10em;
 	text-align: center;
 }
+.title2 {
+	float:right;
+	font-size: 3em;
+	Text-align: center;
+}
 li {	
 	list-style:none;
 }
 .buyNowButton	{
-	margin:auto 0;
+	margin-left: 25%;
 	text-align: center;
+	width:30%;
+
 }
 .stuff, .cost {
 	width:50%;
+	margin-left:25%;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}

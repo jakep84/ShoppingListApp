@@ -11,29 +11,47 @@
 		<h1 class="title">Shopping List</h1>
 		<div class="stuff">
 		<h1 class="title1">Products</h1>
-			<ul class="products"> 
-			<!-- up and down arrow for more or less products -->
+			<table style="width:100%">
+			  <tr>
+			    <td id="product"><input type="checkbox">Apples</input></td>
+			    <td id="product-price">$4</td>		
+			    <td id="total">$4</td>
+			  </tr>
+			  <tr>
+			    <td id="product"><input type="checkbox">Carrots</input></td>
+			    <td id="product-price">$6</td>		
+			    <td id="total">$10</td>
+			  </tr>
+			  <tr>
+			    <td id="product"><input type="checkbox">Apple Juice</input></td>
+			    <td id="product-price">$5</td>		
+			    <td id="total">$15</td>
+			  </tr>
+			</table>
+			<!-- <ul class="products"> 
+			<!-- up and down arrow for more or less products 
 				<li class="goods" id="productA"> <input type="checkbox"><a href="productloc.link">food name</a></input></li>
 				<li class="goods" id="productB"><input type="checkbox"><a href="productloc.link">food name</a></input></li>
 				<li class="goods" id="productC"><input type="checkbox"><a href="productloc.link">food name</a></input></li>
 				<li class="goods" id="productD"><input type="checkbox"><a href="productloc.link">food name</a></input></li>
-			</ul>
+			</ul> -->
+			<div class="title2">Total $15</div> 
 		</div>
 			<!-- need an input for prices  -->
 			<!-- need to be able to calculate those prices with total/subtotal -->
-		<div class="cost">
-<h1 class="title2">Prices</h1>
-			<ul class="pricelist">
+		<!-- <div class="cost"> -->
+
+		<!--	<ul class="pricelist">
 				<li class="prices" id=" "><p class="price">$Bucks</p></li>
 				<li class="prices" id=" "><p class="price">$Bucks</p></li>
 				<li class="prices" id=" "><p class="price">$Bucks</p></li>
 				<li class="prices" id=" "><p class="price">$Bucks</p></li>
 				<li class="prices" id=" "><p class="price">$Bucks</p></li>
 			</ul>
-		</div>
+		</div>-->
 		<div>
-			<div class="subtotal" style="float:right;">subtotal<div></div></div>
-			<div class="total"style="float:right;"> grand total<div></div></div>
+			<!-- <div class="subtotal" style="float:right;">subtotal<div></div></div> -->
+			<!-- <div class="total"style="float:right;"> grand total<div></div></div> -->
 			<!-- buy now button!! -->
 			<div class="buyNowButton"><button class="buyButton">Buy Now</button></div>
 	</div>		
