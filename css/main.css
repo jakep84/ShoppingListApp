@@ -10,11 +10,7 @@ Seems like as good a time as any to start
 	box-sizing:border-box;
 	background-color: #834262;
 	border:solid 1px chartreuse;
-}
-button {
-	height: 100%;
-    width: 50%;
-    border-radius: 10%;
+	cursor:default;
 }
 .fullTable {
 	width:100%;
@@ -26,6 +22,7 @@ button {
 	color:#8A0707;
 	border-radius: 78px 12px;
 	text-align:center;
+	cursor:text;
 }
 .title {
 	font-size: 10em;
@@ -38,6 +35,12 @@ button {
 }
 li {	
 	list-style:none;
+}
+button {
+	height: 100%;
+    width: 50%;
+    border-radius: 10%;
+    cursor:pointer;
 }
 .buyNowButton	{
 	margin-left: 25%;
