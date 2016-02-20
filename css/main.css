@@ -1,5 +1,17 @@
+/*Maybe I should use this to start my first
+	 mobile first project*/
+/* want to do mobile first ? 
+Seems like as good a time as any to start
+@media screen and (max-width: 500px) {
+
+	}
+*/
 * {
 	background-color: black;
 	color:red;
 	border:solid 1px purple;
+}
+.buyNowButton	{
+	margin:auto 0;
+	text-align: center;
 }
