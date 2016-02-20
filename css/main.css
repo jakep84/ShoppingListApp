@@ -8,13 +8,24 @@ Seems like as good a time as any to start
 */
 * {
 	box-sizing:border-box;
-	background-color: white;
-	color:pink;
-	border:solid 1px pink;
+	background-color: #834262;
+	border:solid 1px chartreuse;
+}
+button {
+	height: 100%;
+    width: 50%;
+    border-radius: 10%;
+}
+.fullTable {
+	width:100%;
+	border-radius:10%;
 }
 .addProduct {
-	font-size:10em;
-	color:green;
+	font-size:3em;
+	background-color:silver;
+	color:#8A0707;
+	border-radius: 78px 12px;
+	text-align:center;
 }
 .title {
 	font-size: 10em;
@@ -32,11 +43,12 @@ li {
 	margin-left: 25%;
 	text-align: center;
 	width:30%;
-
+	height:3em;
 }
 .stuff, .cost {
-	width:50%;
-	margin-left:25%;
+	margin-top: -7%;
+    width: 50%;
+    margin-left: 25%;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
