@@ -1,4 +1,4 @@
-/*Maybe I should use this to start my first
+Maybe I should use this to start my first
 	 mobile first project*/
 /* Want to do mobile first ? 
 Seems like as good a time as any to start
@@ -6,6 +6,12 @@ Seems like as good a time as any to start
 
 	}
 */
+/* flexbox the background?
+flex-direction: column; aims it to flow down (footer will be stuck to the top)
+flex:1;stretches everything to the bottom
+center children align-items: center; justify-content: center; stretch chiildren:flex1 
+felx-wrap: wrap; to add many items that don't fit in the space given, looks more like a grid
+ Fillspace */
 * {
 	box-sizing:border-box;
 	background-color: #834262;
@@ -68,4 +74,3 @@ building a responsive css grid
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-*/
