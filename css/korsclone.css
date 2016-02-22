@@ -1,0 +1,10 @@
+* {
+	list-style:none;
+	font-family: 'Cinzel', serif;
+}
+li {
+	display:inline;
+}
+ul {
+	padding-left: 1px;
+}
