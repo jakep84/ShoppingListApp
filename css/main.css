@@ -6,7 +6,7 @@ Seems like as good a time as any to start
 
 	}
 */
-/* flexbox the background?
+/* for the responsive, flexbox the background?
 flex-direction: column; aims it to flow down (footer will be stuck to the top)
 flex:1;stretches everything to the bottom
 center children align-items: center; justify-content: center; stretch chiildren:flex1 
