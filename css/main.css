@@ -19,6 +19,9 @@ felx-wrap: wrap; to add many items that don't fit in the space given, looks more
 	cursor:default;
 	font-family: 'Cinzel', serif;
 }
+body {
+	font-family: 'Cinzel',serif;
+}
 .fullTable {
 	width:100%;
 	border-radius:10%;
@@ -37,9 +40,11 @@ felx-wrap: wrap; to add many items that don't fit in the space given, looks more
     color: #8A0707;
     border-radius: 12px 78px;
     text-align: center;
+    font-family: 'Cinzel', serif;
+
 }
 .title {
-	font-size: 10em;
+	font-size: 7em;
 	text-align: center;
 }
 .title2 {
@@ -55,6 +60,8 @@ button {
     width: 50%;
     border-radius: 10%;
     cursor:pointer;
+    color: #8A0707;
+    font-size: 2em;
 }
 .buyNowButton	{
 	margin-left: 25%;
