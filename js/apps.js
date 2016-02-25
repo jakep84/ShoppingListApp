@@ -8,10 +8,10 @@ $(document).ready(function() {
   	$( '.buyNowButton' ).click ( function () {
   	console.log ( '.buyNowButton was clicked' );
 	});
-	$("table").append("<td>Appended item</td>");
+	// $("table").append("<td>Appended item</td>");
+	$( "List1" ).append( $( "product" ) );
 
 });
-
 
 
 // double click to add to list?
