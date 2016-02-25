@@ -32,30 +32,27 @@
 	<title>Shopping List</title>
 </head>
 <body>
+<!-- adding a scan function would be awesome -->
 	<!-- logo in the top left corner with nav bar -->
 	<div class="shoppingApp">
 		<h1 class="title">Shopping List</h1>
 		<div class="stuff">
-		<!--make this look like an input box-->
-		<!-- Turn this into an input box  -->
-<input name="List1" type="text" style="font-size: 3em;
+	<input name="List1" type="text" style="font-size: 3em;
     background-color: silver;
     color: #8A0707;
     border-radius: 78px 12px;
     text-align: center;
     cursor: text;
     width:420px;">
-    <!-- get this out of inline styling -->
-    <!--style the click button up smooth with input bar-->
+    <!-- get rid of inline html styling (get it over to CSS file) -->
     <!-- get rid of the outline on active-->
 <input type="button" id="btn_AddToList" value="Add">
-<!-- need to be able to have a prompt text inside this text box -->
+<!-- need to be able to have a prompt text inside this text box ('add needs here'?)-->
 <!-- <input name="List1" type="text">  -->
-		<!-- <input type="button" id="btn_AddToList" value="Add"> -->
 			<table class="fullTable">
 			  <tr>
-			  <!-- maybe #product-price should actually be product amount, then I could implement the arrow up/down feature  -->
-			  <!-- or add a smaller td with the product amount and up/down arrow feature -->
+			  <!-- or add a smaller td with the product amount and up/down arrow feature ??-->
+			  <!-- on checkbox click lineout product thus noting Item found?-->
 			    <td id="product"><input type="checkbox">Apples</input></td>
 			    <td id="product-price"><select id="List2">
 			    	<option>0</option>
@@ -73,6 +70,8 @@
 			    <td id="total">$4</td>
 			  </tr>
 			  <tr>
+			  			  <!-- on checkbox click lineout product thus noting Item found?-->
+
 			    <td id="product"><input type="checkbox">Carrots</input></td> 	
 			    <td id="product-price"><select id="List2">
 			    	<option>0</option>
@@ -90,6 +89,8 @@
 			    <td id="total">$10</td>
 			  </tr>
 			  <tr>
+			  			  <!-- on checkbox click lineout product thus noting Item found?-->
+
 			    <td id="product"><input type="checkbox">Apple Juice</input></td>
 			    <td id="product-price"><select id="List2">
 			    	<option>0</option>

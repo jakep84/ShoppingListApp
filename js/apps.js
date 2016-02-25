@@ -8,12 +8,14 @@ $(document).ready(function() {
   	$( '.buyNowButton' ).click ( function () {
   	console.log ( '.buyNowButton was clicked' );
 	});
+	$("table").append("<td>Appended item</td>");
+
 });
 
 
-// $(document).ready(function() {
-// 	// $("#btn2").click(function(){
-//  //     $("ol").append("<li>Appended item</li>");
+
+// double click to add to list?
+//  //.append .mouseenter .appendTo
 //  //    });
 // 	$("#btn_AddToList").mouseenter(function(){
 // 		alert("something");
@@ -30,9 +32,4 @@ $(document).ready(function() {
 
 
 
-// </script> 
-// $(document).ready(function() {
-//   $('.ryu').mouseenter(function() {
-//     alert('mouse entered .ryu div');
-//   });
-// });
+
