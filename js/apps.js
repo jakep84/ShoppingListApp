@@ -6,17 +6,22 @@ $(document).ready(function() {
   	console.log ( '#btn_AddToList was clicked' );
 	});
   	$( '.buyNowButton' ).click ( function () {
-  	console.log ( '.buyNowButton was clicked' );
+  	console.log ('.buyNowButton was clicked');
 	});
 	// $("table").append("<td>Appended item</td>");
 	$( "List1" ).append( $( "product" ) );
 
 });
 
-
+// Vocab. pop quiz
 // double click to add to list?
-//  //.append .mouseenter .appendTo
-//  //    });
+// .append()- means to add to the end of something
+// .mouseenter()- means when the mouse enters a certain area it will fire this
+// .val()- the value of an input or textbox
+// .click()
+// .prepend()
+//  appendTo()
+
 // 	$("#btn_AddToList").mouseenter(function(){
 // 		alert("something");
    //alert($('input[name=List1]').val());  
@@ -25,9 +30,9 @@ $(document).ready(function() {
 //     });         
 // });
 
-// make on click price come from embeded list 
-//to make it com out to the title line 
-// put product entered from textbox onto list   
+// make on click price come from embeded list (price list) 
+// put product entered from textbox onto list-- this will have 
+// something to do with .val()  
 
 
 
