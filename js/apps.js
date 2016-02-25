@@ -1,8 +1,16 @@
 $(document).ready(function() {
-  $('.btn_AddToList').onclick(function() {
-    alert('mouse entered .btn_AddToList input');
-  });
+  // $('.btn_AddToList').click(function() {
+  //   console.log('mouse entered .btn_AddToList input');
+  // });
+  	$( '#btn_AddToList').click ( function () {
+  	console.log ( '#btn_AddToList was clicked' );
+	});
+  	$( '.buyNowButton' ).click ( function () {
+  	console.log ( '.buyNowButton was clicked' );
+	});
 });
+
+
 // $(document).ready(function() {
 // 	// $("#btn2").click(function(){
 //  //     $("ol").append("<li>Appended item</li>");

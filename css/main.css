@@ -41,6 +41,7 @@ body {
     border-radius: 12px 78px;
     text-align: center;
     font-family: 'Cinzel', serif;
+    cursor:pointer;
 
 }
 .title {
