@@ -37,23 +37,16 @@
 	<div class="shoppingApp">
 		<h1 class="title">Shopping List</h1>
 		<div class="stuff">
-	<input name="List1" type="text" style="font-size: 3em;
-    background-color: silver;
-    color: #8A0707;
-    border-radius: 78px 12px;
-    text-align: center;
-    cursor: text;
-    width:420px;">
+	<input id="list1"name="List1" type="text">
     <!-- get rid of inline html styling (get it over to CSS file) -->
     <!-- get rid of the outline on active-->
 <input type="button" id="btn_AddToList" value="Add">
 <!-- need to be able to have a prompt text inside this text box ('add needs here'?)-->
-<!-- <input name="List1" type="text">  -->
 			<table class="fullTable">
 			  <tr>
 			  <!-- or add a smaller td with the product amount and up/down arrow feature ??-->
 			  <!-- on checkbox click lineout product thus noting Item found?-->
-			    <td id="product"><input type="checkbox">Apples</input></td>
+			    <td id="product"><input id="checkbox" type="checkbox">Apples</input></td>
 			    <td id="product-price"><select id="List2">
 			    	<option>0</option>
 					<option>1</option>
@@ -108,31 +101,9 @@
 			    <td id="total">$15</td>
 			  </tr>
 			</table>
-			<!-- <ul class="products"> 
-			<!-- up and down arrow for more or less products 
-				<li class="goods" id="productA"> <input type="checkbox"><a href="productloc.link">food name</a></input></li>
-				<li class="goods" id="productB"><input type="checkbox"><a href="productloc.link">food name</a></input></li>
-				<li class="goods" id="productC"><input type="checkbox"><a href="productloc.link">food name</a></input></li>
-				<li class="goods" id="productD"><input type="checkbox"><a href="productloc.link">food name</a></input></li>
-			</ul> -->
 			<div class="title2">Total $15</div> 
 		</div>
-			<!-- need an input for prices  -->
-			<!-- need to be able to calculate those prices with total/subtotal -->
-		<!-- <div class="cost"> -->
-
-		<!--	<ul class="pricelist">
-				<li class="prices" id=" "><p class="price">$Bucks</p></li>
-				<li class="prices" id=" "><p class="price">$Bucks</p></li>
-				<li class="prices" id=" "><p class="price">$Bucks</p></li>
-				<li class="prices" id=" "><p class="price">$Bucks</p></li>
-				<li class="prices" id=" "><p class="price">$Bucks</p></li>
-			</ul>
-		</div>-->
 		<div>
-			<!-- <div class="subtotal" style="float:right;">subtotal<div></div></div> -->
-			<!-- <div class="total"style="float:right;"> grand total<div></div></div> -->
-			<!-- buy now button!! -->
 			<div class="buyNowButton"><button class="buyButton">Buy Now</button></div>
 	</div>		
 </body>

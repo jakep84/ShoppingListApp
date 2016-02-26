@@ -19,6 +19,15 @@ felx-wrap: wrap; to add many items that don't fit in the space given, looks more
 	cursor:default;
 	font-family: 'Cinzel', serif;
 }
+#list1 {
+	font-size: 3em;
+    background-color: silver;
+    color: #8A0707;
+    border-radius: 78px 12px;
+    text-align: center;
+    cursor: text;
+    width:420px;
+}
 body {
 	font-family: 'Cinzel',serif;
 }
