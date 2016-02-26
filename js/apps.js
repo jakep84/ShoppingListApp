@@ -18,11 +18,13 @@ console.log($('#list1').val());
 
 
   	$( '#btn_AddToList').click ( function () {
-  	console.log ( '#btn_AddToList was clicked' );
+  	// console.log ( '#btn_AddToList was clicked' );
+	console.log($('#list1').val());
 	});
   	$( '.buyNowButton' ).click ( function () {
   	console.log ('.buyNowButton was clicked');
 	});
+	$('input')
 	// $("table").append("<td>Appended item</td>");
 	//$( "#list1" ).append(#product);
 });
