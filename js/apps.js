@@ -3,18 +3,15 @@ $(document).ready(function() {
   //   console.log('mouse entered .btn_AddToList input');
   // });
     // $( '#btn_AddToList').click(function() {
-    // 	console.log ( .val (#list1);
+    // 	console.log ( .val (#list1); //Is this working right??
     // });
     // $('#list1').val(function() {
     // 	console.log($('#list1').val
     // });
- //    $('#list1').val() 
+    // $('#list1').val() 
 	// console.log($('#list1').val());
-
 $('#list1').val()
-console.log($('#list1').val());
-
-
+console.log($('#list1').val()); //will this('#list1') qualify for 'this'?
 
 
   	$( '#btn_AddToList').click ( function () {
