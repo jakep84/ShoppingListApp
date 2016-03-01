@@ -3,12 +3,12 @@ $(document).ready(function() {
 	$('#list1').val()
 	console.log($('#list1').val());//this'?
 
-    $('#btn_AddToList').double-click(function () {
+    $('#btn_AddToList').click(function () {
  //code checks out//append target or location off
   	$('#product').append($('#list1').val());
 	});//code checks out to here 3/1/16
   	$('.buyNowButton').click(function () {
-  
+//add together all totals and log in .title2 (total display box)
   	console.log('.buyNowButton was clicked');
 
 	}); //code checks out to here 3/1/16
