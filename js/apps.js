@@ -1,30 +1,27 @@
 $(document).ready(function() {
-  // $('.btn_AddToList').click(function() {
-  //   console.log('mouse entered .btn_AddToList input');
-  // });
-    // $( '#btn_AddToList').click(function() {
-    // 	console.log ( .val (#list1); //Is this working right??
-    // });
-    // $('#list1').val(function() {
-    // 	console.log($('#list1').val
-    // });
-    // $('#list1').val() 
-	// console.log($('#list1').val());
-$('#list1').val()
-console.log($('#list1').val()); //will this('#list1') qualify for 'this'?
 
+	$('#list1').val()
+	console.log($('#list1').val());//this'?
 
-  	$( '#btn_AddToList').click ( function () {
+    $('#btn_AddToList').double-click(function () {
+ //code checks out//append target or location off
   	$('#product').append($('#list1').val());
-	// console.log($('#list1').val());
-	});
-  	$( '.buyNowButton' ).click ( function () {
-  	console.log ('.buyNowButton was clicked');
-	});
-	$('input')
-	// $("table").append("<td>Appended item</td>");
-	//$( "#list1" ).append(#product);
+	});//code checks out to here 3/1/16
+  	$('.buyNowButton').click(function () {
+  
+  	console.log('.buyNowButton was clicked');
+
+	}); //code checks out to here 3/1/16
 });
+
+	// $('input') idk what this is doing here
+
+
+
+
+
+
+
 // <button onclick="myFunction()">Try it</button>
 // function myFunction() {
 //     var x = document.getElementById("myInput").value;
