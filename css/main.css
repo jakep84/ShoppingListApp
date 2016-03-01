@@ -1,4 +1,4 @@
-Maybe I should use this to start my first
+/*Maybe I should use this to start my first
 	 mobile first project*/
 /* Want to do mobile first ? 
 Seems like as good a time as any to start
@@ -14,8 +14,6 @@ felx-wrap: wrap; to add many items that don't fit in the space given, looks more
  Fillspace */
 * {
 	box-sizing:border-box;
-	background-color: #834262;
-	border:solid 1px chartreuse;
 	cursor:default;
 	font-family: 'Cinzel', serif;
 }
@@ -58,7 +56,7 @@ body {
 	text-align: center;
 }
 .title2 {
-	float:right;
+	float: right;
 	font-size: 3em;
 	Text-align: center;
 }
@@ -71,7 +69,7 @@ button {
     border-radius: 10%;
     cursor:pointer;
     color: #8A0707;
-    font-size: 2em;
+    font-size: larger;
 }
 .buyNowButton	{
 	margin-left: 25%;

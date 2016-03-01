@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-	$('#list1').val()
-	console.log($('#list1').val());//this'?
+	// $('#list1').val()
+	// console.log($('#list1').val());//this'?
 
     $('#btn_AddToList').click(function () {
  //code checks out//append target or location off
@@ -34,7 +34,7 @@ $(document).ready(function() {
 // .val()- the value of an input or textbox
 // .click()
 // .prepend()
-//  appendTo()
+//  appendTo()githubd 
 
 //input hidden value property will allow for use of hidden price list
 // 	$("#btn_AddToList").mouseenter(function(){
