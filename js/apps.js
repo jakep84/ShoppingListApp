@@ -5,8 +5,12 @@ $(document).ready(function() {
 
     $('#btn_AddToList').click(function () {
  //code checks out//append target or location off
-  	$('#product').append($('#list1').val());
-	});//code checks out to here 3/1/16
+  //$('#product').append($('#list1').val());
+  //$('.fullTable td').append('<tr><td id="product"><input type="checkbox">Carrots</input></td><td id="product-price"><select id="List2"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select>$6</td><td id="total">$10</td></tr>');
+  //	//$("#content ul li:last").after('<li><a href="/user/messages"><span class="tab">Message Center</span></a></li>');
+ $("<td>").append($(".thingName").text($('#list1').val()));
+
+	});
   	$('.buyNowButton').click(function () {
 //add together all totals and log in .title2 (total display box)
   	console.log('.buyNowButton was clicked');
