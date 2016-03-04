@@ -1,10 +1,23 @@
 $(document).ready(function() {	
     $('#btn_AddToList').click(function () {
- 	$('.fullTable').append('<tr><td id="product"><input type="checkbox">' + $('#list1').val() + ' <input type="number" name="quantity" min="1" max="15">$6</td><td id="total">$10</td></tr>');
+ 	$('.fullTable').append('<tr><td class="product"><input type="checkbox">' + $('#list1').val() + ' <input type="number" name="quantity" min="1" max="15">$6</td><td id="total">$10</td></tr>');
 	});
   	$('.buyNowButton').click(function () {
 //add together all totals and log in .title2 (total display box)
   	console.log('.buyNowButton was clicked');
+  $(document).keydown(function(e){
+     if (e.keyCode == 72 79 84  68 79 71 ) {
+       lookingCool=true; //something different here
+     $('#apple').hide();
+     $('#buns').hide();
+     $('#banana').hide();
+     $('#water').hide();
+     $('#porkchops').hide();
+     $('#juice').hide();
+     $('#wings').hide();
+     $('#hotdog').show();
+         }
+     });
 
 	});
 });
