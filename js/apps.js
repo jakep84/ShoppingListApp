@@ -1,21 +1,12 @@
-$(document).ready(function() {
-
-	// $('#list1').val()
-	// console.log($('#list1').val());//this'?
-
+$(document).ready(function() {	
     $('#btn_AddToList').click(function () {
- //code checks out//append target or location off
-  //$('#product').append($('#list1').val());
-  //$('.fullTable td').append('<tr><td id="product"><input type="checkbox">Carrots</input></td><td id="product-price"><select id="List2"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select>$6</td><td id="total">$10</td></tr>');
-  //	//$("#content ul li:last").after('<li><a href="/user/messages"><span class="tab">Message Center</span></a></li>');
- $("<td>").append($(".thingName").text($('#list1').val()));
-
+ 	$('.fullTable').append('<tr><td id="product"><input type="checkbox">' + $('#list1').val() + ' <input type="number" name="quantity" min="1" max="15">$6</td><td id="total">$10</td></tr>');
 	});
   	$('.buyNowButton').click(function () {
 //add together all totals and log in .title2 (total display box)
   	console.log('.buyNowButton was clicked');
 
-	}); //code checks out to here 3/1/16
+	});
 });
 
 	// $('input') idk what this is doing here
@@ -24,6 +15,8 @@ $(document).ready(function() {
 
 
 
+// $('#list1').val()
+	// console.log($('#list1').val());//this'?
 
 
 // <button onclick="myFunction()">Try it</button>

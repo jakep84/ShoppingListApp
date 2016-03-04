@@ -1,0 +1,21 @@
+  
+Old list--->
+  <tr>
+			  <!-- or add a smaller td with the product amount and up/down arrow feature ??-->
+			  <!-- on checkbox click lineout product thus noting Item found?-->
+			    <td id="product"><input id="checkbox" type="checkbox">Apples</input></td>
+			    <td id="product-price"><input type="number" name="quantity" min="1" max="10"></td>
+			    <td id="total">$4</td>
+			  </tr>
+			  <tr>
+			  			  <!-- on checkbox click lineout product thus noting Item found?-->
+
+			    <td id="product"><input type="checkbox" class="thingName">Carrots</input></td> 	
+			    <td id="product-price"><input type="number" name="quantity" min="1" max="10">$2</td>
+			  </tr>
+			  <tr>
+			  			  <!-- on checkbox click lineout product thus noting Item found?-->
+
+			    <td id="product"><input type="checkbox">Apple Juice</input></td>
+			    <td id="product-price"><input type="number" name="quantity" min="1" max="10">$4</td>
+			  </tr>
