@@ -71,7 +71,9 @@ $(document).ready(function() {
 	// $('input') idk what this is doing here
 
 
-
+//function invertClicked() {
+//    display.val(display.val() *-1);
+//}
 
 
 // $('#list1').val()
