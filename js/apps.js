@@ -4,10 +4,6 @@ $(document).ready(function() {
 	});
   	$('.buyNowButton').click(function () {
 //add together all totals and log in .title2 (total display box)
-  	console.log('.buyNowButton was clicked');
-  $(document).keydown(function(e){
-     if (e.keyCode == 72 79 84  68 79 71 ) {
-       lookingCool=true; //change lookingCool
      // $('#apple').hide();
      // $('#buns').hide();
      // $('#banana').hide();
@@ -17,14 +13,14 @@ $(document).ready(function() {
      // $('#wings').hide();
      // $('#hotdog').show();
 
-         }
+         
      });
 
 	});
-});
 
 
-		function handleChange(){
+
+/*		function handleChange(){
         var newText=input.value;
         if (newText==oldText)return; else oldText=newText;
             set(reversed, reverse(newText));
@@ -48,7 +44,6 @@ $(document).ready(function() {
                 color = "green";
             }
 // Look through array for all magic_words
-// 
             for (var i = 0; i < magic_words.length; i++) {
 // Look through all INPUT string text that's been divided into seperate words
 //I think this is where my input from list 1 will go, calling the other list to get the info (the magic word list)
@@ -60,8 +55,6 @@ $(document).ready(function() {
                             color = "blue"; 
                         break;
                     } 
-// WHAT I NEED IS TO TELL THE FUNCTION TO KEEP ANALYZING THE TEXT TO SEE IF IT MATCHES. RIGHT NOW IT STICKS ON BLUE
-
                 }
             }
 
@@ -69,7 +62,7 @@ $(document).ready(function() {
         }
 
 	// $('input') idk what this is doing here
-
+*/
 
 //function invertClicked() {
 //    display.val(display.val() *-1);
