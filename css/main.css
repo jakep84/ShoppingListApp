@@ -29,6 +29,9 @@ felx-wrap: wrap; to add many items that don't fit in the space given, looks more
     cursor: text;
     width: 420px;
 }
+td:nth-child(2) {
+	width: 553px;
+}
 body {
 	font-family: 'Cinzel',serif;
 }
