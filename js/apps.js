@@ -27,7 +27,7 @@ $(document).ready(function() {
     'apples': {
         name: 'apples',
         unitPrice: 3 
-    } 
+    }
 }
     //juice,bacon,tuna,burgers,wings,cheese,apples
     // make this corn '84 68 79 71':'Corn',
