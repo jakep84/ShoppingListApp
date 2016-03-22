@@ -27,6 +27,8 @@
   	<meta name="theme-color" content="#ffffff">
   	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   	<link rel="stylesheet" href="font-awesome-4.5.0 3/css/font-awesome.css">
+  	<link rel="javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/apps.js"></script>
 	<title>Shopping List</title>
@@ -34,21 +36,30 @@
 <body>
 <!-- adding a scan function would be awesome -->
 	<!-- logo in the top left corner with nav bar -->
-	<div class="shoppingApp">
-		<h1 class="title">Shopping List</h1>
-		<div class="stuff">
-	<input id="list1"name="List1" type="text">
+	<div class="container-fluid">
+	<div class="row">
+		<h1 class=" title">Shopping List</h1>
+	</div>
+	<div class="row">
+		<div class="col-md-8 col-lg-8stuff">
+	<input id="list1"name="List1" type="text" class="col-xs-6">
     <!-- get rid of inline html styling (get it over to CSS file) -->
     <!-- get rid of the outline on active-->
-	<input type="button" id="btn_AddToList" value="Add">
+	<input type="button" id="btn_AddToList" value="Add" class="col-xs-6">
+	</div>
 	<!-- need to be able to have a prompt text inside this text box ('add needs here'?)-->
+	<div class="row">
 			<table class="fullTable">
 			</table>
+	</div>
+	<div class="row">
 			<div class="title2">Total $15</div> 
-		</div>
-		<div>
+	</div>
+		<div class="row">
 			<div class="buyNowButton"><button class="buyButton">Buy Now</button></div>
-	</div>		
+	</div>	
+	</div>
+	</div>
 </body>
 </html>
 <!--Price list -change id's into classes
