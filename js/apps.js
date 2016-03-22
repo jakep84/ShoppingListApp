@@ -30,7 +30,8 @@ $(document).ready(function() {
     'apples': {
         name: 'apples',
         unitPrice: 3 
-    }
+    } 
+}
 
     //juice,bacon,tuna,burgers,wings,cheese,apples
     // make this corn '84 68 79 71':'Corn',
@@ -48,8 +49,8 @@ $(document).ready(function() {
 
 var codes = {
 '80 90 87 89 45':{
-name:'apple',
-unitPrice:6
+name:'appleß',
+unitPrice:6ß
 }
 '80 90 87 89 45':{
 name:'banana',

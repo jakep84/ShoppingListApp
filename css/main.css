@@ -27,13 +27,16 @@ felx-wrap: wrap; to add many items that don't fit in the space given, looks more
     border-radius: 78px 12px;
     text-align: center;
     cursor: text;
-    width: 420px;
-}
+/*    width: 420px;
+*/}
 td:nth-child(2) {
 	width: 553px;
 }
 body {
 	font-family: 'Cinzel',serif;
+}
+.container-fluid {
+	width: 800px;
 }
 .fullTable {
 	width:100%;
@@ -84,7 +87,7 @@ button {
 	height:3em;
 }
 .stuff, .cost {
-	margin-top: -7%;
+	margin-top: 3%;
     width: 50%;
     margin-left: 25%;
 }
