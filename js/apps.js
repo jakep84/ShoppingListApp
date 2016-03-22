@@ -1,8 +1,5 @@
 $(document).ready(function() {	
     var codes = {
-    //'what you type in':'what you get out',
-    //'what you type in':{'name of 1st thing you want:'value', name of second thing:'value'}
-    //'74 85 73 67 69':'juice',
     'juice': {
         name: 'juice',
         unitPrice: 6
@@ -32,7 +29,6 @@ $(document).ready(function() {
         unitPrice: 3 
     } 
 }
-
     //juice,bacon,tuna,burgers,wings,cheese,apples
     // make this corn '84 68 79 71':'Corn',
     // '87 65 85 69 82':'Water',
