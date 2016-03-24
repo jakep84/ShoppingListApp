@@ -1,63 +1,86 @@
 $(document).ready(function() {	
+
     var codes = {
     'juice': {
         name: 'juice',
         unitPrice: 6
-    }
+    },
     'bacon': {
         name: 'bacon',
         unitPrice: 5
-    }
+    },
     'tuna': {
         name: 'tuna',
         unitPrice: 7 
-    }
+    },
     'burgers': {
         name: 'burgers',
         unitPrice: 4 
-    }
+    },
     'wings': {
         name: 'wings',
         unitPrice: 4
-    }
+    },
     'cheese': {
         name: 'cheese',
         unitPrice: 2
-    }
+    },
     'apples': {
         name: 'apples',
         unitPrice: 3 
     }
 }
-    //juice,bacon,tuna,burgers,wings,cheese,apples
-    // make this corn '84 68 79 71':'Corn',
-    // '87 65 85 69 82':'Water',
-    //make this bacon '80 79 82 75':'Bacon',
-    // '87 73 78 71 83':'Wings',
-    // '65 80 80 76 69':'apple' 
-    // }
+<td>'
+
+// I want this to add prices together in 
+// the total column from the #price 
+//<td>'+codes[$('#list1').val()].unitPrice+'</td>   
+//starting from #price firstchild add following prices 
+//  for (var i=1; i < 10; i++) {
+//  total+=i
+//  console.log(total);
+//  }
+//  console.log(total);
+//  }
+$('#btn_AddToList').click(function(){
+  for (var )
+.val().unitPrice adding it to =+ #total
+
+print price
+})
+'</td>
+  // function to change <td>$6</td> to  unitPrice: 3 .val() <td>'+codes[$('#list1').val()].unitPrice+'</td>                                                                                                                                                                                                                   
     $('#btn_AddToList').click(function () {                                           
- 	$('.fullTable').append('<tr><td class="product"><input type="checkbox"></td><td>'+/*codes[$('#list1').val()]*/codes[$('#list1').name]+'</td><td><input type="number" name="quantity" default="0" min="1" max="15"></td><td>$6</td><td id="total">$10</td></tr>');
+ 	$('.fullTable').append('<tr><td class="product"><input type="checkbox"></td><td>'+/*codes[$('#list1').val()]*/codes[$('#list1').val()].name+'</td><td><input type="number" name="quantity" default="0" min="1" max="15"></td><td class="price">'+codes[$('#list1').val()].unitPrice+'</td><td id="total">$10</td></tr>');
 	});
   	$('.buyNowButton').click(function () {
     });
 });
 
-var codes = {
-'80 90 87 89 45':{
-name:'appleß',
-unitPrice:6ß
-}
-'80 90 87 89 45':{
-name:'banana',
-unitPrice:4
-}
-'80 90 87 89 45':{
-name:'buns',
-unitPrice:2
-}
-}
- codes['80 90 87 89 45'].name
+
+// $('.fullTable').on('click', '', function(event){
+  // fires when any LIs are clicked on
+  // including LIs that aren't on the page when it is initially loaded
+// });
+
+
+
+
+// var codes = {
+// '80 90 87 89 45':{
+// name:'apple',
+// unitPrice:6
+// }
+// '80 90 87 89 45':{
+// name:'banana',
+// unitPrice:4
+// }
+// '80 90 87 89 45':{
+// name:'buns',
+// unitPrice:2
+// }
+// }
+//  codes['80 90 87 89 45'].name
 //add together all totals and log in .title2 (total display box)
      // $('#apple').hide();
      // $('#buns').hide();
